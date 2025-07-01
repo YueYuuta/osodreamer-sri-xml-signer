@@ -113,8 +113,10 @@ export class InvoiceXmlFactory {
           pagos: {
             pago: [],
           },
-          valorRetIva: valorRetIva.toFixed(2),
-          valorRetRenta: valorRetRenta.toFixed(2),
+          valorRetIva: valorRetIva.toString() ? valorRetIva.toFixed(2) : null,
+          valorRetRenta: valorRetRenta.toString()
+            ? valorRetRenta.toFixed(2)
+            : null,
         },
         detalles: {
           detalle: [],
@@ -130,14 +132,15 @@ export class InvoiceXmlFactory {
 
     // 1. Tomamos la lista (o único objeto) si existe
     const retencion = retenciones?.retencion;
+    console.log("🚀 ~ InvoiceXmlFactory ~ create ~ retencion:", retencion);
 
     if (retencion) {
       for (const campo of retencion) {
         jsonFactura.factura.retenciones.retencion.push({
           codigo: campo.codigo,
           codigoPorcentaje: campo.codigoPorcentaje,
-          tarifa: campo.tarifa,
-          valor: campo.valor,
+          tarifa: campo.tarifa.toFixed(2),
+          valor: campo.valor.toFixed(2),
         });
       }
     } else {

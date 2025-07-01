@@ -3,7 +3,6 @@
 import {
   Digits,
   IsArray,
-  IsBoolean,
   IsDate,
   IsEnum,
   IsNumber,
@@ -23,9 +22,9 @@ import {
   OBLIGADO_CONTABILIDAD_ENUM,
   PAYMENT_METHOD_CODE_ENUM,
   IDENTIFICATION_CODE_ENUM,
+  CODIGO_RETENCION_ENUM,
+  IMPUESTO_A_RETENER_ENUM,
 } from "../../enums";
-import { CODIGO_RETENCION } from "../../enums/codigo-retencion.enum";
-import { IMPUESTO_A_RETENER } from "../../enums/impuesto-retener.enum";
 
 export class InfoTributariaModel {
   @IsRequired()
@@ -409,13 +408,13 @@ export class RetencionesModel {
   retencion: RetencionModel[];
 }
 export class RetencionModel {
-  @IsEnum(IMPUESTO_A_RETENER)
+  @IsEnum(IMPUESTO_A_RETENER_ENUM)
   @IsRequired()
-  codigo: IMPUESTO_A_RETENER;
+  codigo: IMPUESTO_A_RETENER_ENUM;
 
-  @IsEnum(CODIGO_RETENCION)
+  @IsEnum(CODIGO_RETENCION_ENUM)
   @IsRequired()
-  codigoPorcentaje: CODIGO_RETENCION; //TODO: validar tambien a corde con el TAX_CODE_ENUM vat = 2
+  codigoPorcentaje: CODIGO_RETENCION_ENUM; //TODO: validar tambien a corde con el TAX_CODE_ENUM vat = 2
 
   @IsNumber()
   @Digits({ integer: 3, fraction: 2 })

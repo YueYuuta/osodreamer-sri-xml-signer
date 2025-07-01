@@ -8,3 +8,4 @@ export * from "./sri/exceptions/sri-autorizacion.error";
 export * from "./sri/const/sri-urls";
 export * from "./sri/interfaces";
 export * from "./sri/exceptions";
+export * from "./generator/enums";

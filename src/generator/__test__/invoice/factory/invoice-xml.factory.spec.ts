@@ -234,14 +234,14 @@ describe("InvoiceXmlFactory", () => {
       ...getBaseInvoice(),
       retenciones: {
         retencion: [
-          { codigo: "1", codigoPorcentaje: "2", tarifa: "12", valor: "5.5" },
+          { codigo: "1", codigoPorcentaje: "2", tarifa: 12, valor: 5.5 },
         ],
       },
     };
     const result = factory.create(invoice as any);
     expect(result.factura.retenciones).not.toBeNull();
     expect(result.factura.retenciones!.retencion).toEqual([
-      { codigo: "1", codigoPorcentaje: "2", tarifa: "12", valor: "5.5" },
+      { codigo: "1", codigoPorcentaje: "2", tarifa: "12.00", valor: "5.50" },
     ]);
   });
 

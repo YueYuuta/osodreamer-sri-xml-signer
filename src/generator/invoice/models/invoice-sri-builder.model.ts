@@ -1,6 +1,8 @@
-import { TAX_CODE_ENUM } from "../../enums";
-import { CODIGO_RETENCION } from "../../enums/codigo-retencion.enum";
-import { IMPUESTO_A_RETENER } from "../../enums/impuesto-retener.enum";
+import {
+  TAX_CODE_ENUM,
+  CODIGO_RETENCION_ENUM,
+  IMPUESTO_A_RETENER_ENUM,
+} from "../../enums";
 
 export interface InvoiceSriBuilder {
   factura: FacturaInfo;
@@ -23,13 +25,13 @@ export class Retenciones {
   retencion: Retencion[];
 }
 export class Retencion {
-  codigo: IMPUESTO_A_RETENER;
+  codigo: IMPUESTO_A_RETENER_ENUM;
 
-  codigoPorcentaje: CODIGO_RETENCION;
+  codigoPorcentaje: CODIGO_RETENCION_ENUM;
 
-  tarifa: number; //TODO: TIENE QUE TENER MAX 4 2 ENTEROS Y DOS DECIMALES
+  tarifa: string; //TODO: TIENE QUE TENER MAX 4 2 ENTEROS Y DOS DECIMALES
 
-  valor: number;
+  valor: string;
 }
 export interface InfoTributaria {
   ambiente: number;

@@ -7,7 +7,7 @@ import {
 } from "../exceptions/sri-autorizacion.error";
 import { SriAuthorizationResult } from "../interfaces";
 
-export async function autorizarComprobante(
+export async function authorizeXml(
   claveAcceso: string,
   env: SRIEnv
 ): Promise<SriAuthorizationResult> {

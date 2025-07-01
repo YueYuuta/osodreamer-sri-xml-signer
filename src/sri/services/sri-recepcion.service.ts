@@ -2,9 +2,9 @@ import { uint8ArrayToBase64 } from "../../utils";
 import { SRI_URLS, SRIEnv } from "../const";
 import { SRIRejectedError } from "../exceptions";
 
-import { createSoapClient, normalizeSriMessages } from "../helpers";
+import { createSoapClient } from "../helpers";
 
-export async function validarComprobante(
+export async function validateXml(
   xml: Uint8Array,
   env: SRIEnv
 ): Promise<{ estado: string; mensaje?: string }> {

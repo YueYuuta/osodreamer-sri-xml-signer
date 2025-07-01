@@ -13,7 +13,7 @@ import { ResponseGenerateXmlModel } from "./models";
 import { ComprobanteType } from "./types/comprobante.type";
 import { ComprobanteModel } from "./models/comprobante.model";
 
-export async function GenerateInvoiceXml(
+export async function generateXmlInvoice(
   invoice: ComprobanteType
 ): Promise<ResponseGenerateXmlModel> {
   const user = toDecorated(ComprobanteModel, invoice);

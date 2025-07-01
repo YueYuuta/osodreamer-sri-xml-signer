@@ -1,7 +1,7 @@
 {
   "name": "osodreamer-sri-xml-signer",
-  "version": "0.0.2",
-  "description": "Firma comprobantes XML con certificados digitales (.p12) para el SRI de Ecuador",
+  "version": "0.0.3",
+  "description": "Genera, firma, valida y autoriza comprobantes electrónicos XML para el SRI de Ecuador con certificados digitales (.p12) y estándar XAdES-BES.",
   "author": {
     "name": "Jose Gusñay",
     "email": "jcjunior308@gmail.com",
@@ -11,15 +11,21 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YueYuuta/osodreamer-sri-xml-signer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YueYuuta/osodreamer-sri-xml-signer/issues"
+  },
+  "homepage": "https://github.com/YueYuuta/osodreamer-sri-xml-signer#readme",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --tsconfig tsconfig.json",
     "dev": "tsup src/index.ts --format cjs,esm --dts --tsconfig tsconfig.json --watch",
@@ -39,11 +45,19 @@
     "xml-dsig",
     "xml-signer",
     "comprobante-electronico",
+    "factura-electronica",
+    "comprobantes-sri",
     "e-factura",
     "e-invoice",
-    "p12",
     "sri",
     "ecuador",
+    "anexo3",
+    "anexo21",
+    "anexo22",
+    "p12",
+    "soap",
+    "validar-comprobante",
+    "autorizar-comprobante",
     "nodejs",
     "typescript",
     "nestjs",
