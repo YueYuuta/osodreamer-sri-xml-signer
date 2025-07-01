@@ -1,0 +1,3 @@
+export enum IMPUESTO_A_RETENER {
+  IVA_PRESUNTIVO_Y_RENTA = 4,
+}

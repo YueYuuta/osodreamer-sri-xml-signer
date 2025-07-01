@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1751161509534" clover="3.2.0">
+  <project timestamp="1751161509534" name="All files">
+    <metrics statements="470" coveredstatements="469" conditionals="209" coveredconditionals="182" methods="109" coveredmethods="105" elements="788" coveredelements="756" complexity="0" loc="470" ncloc="470" packages="22" files="40" classes="40"/>
+    <package name="sign-xml">
+      <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="sign-xml.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\sign-xml.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.application">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="use-cases.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\application\use-cases.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.common.utils">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="crypto.util.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\common\utils\crypto.util.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\common\utils\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.domain">
+      <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="xades-signature.service.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\xades-signature.service.ts">
+        <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.domain.assemblers">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\assemblers\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="xades-document.assembler.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\assemblers\xades-document.assembler.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.domain.builders">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\builders\index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="keyInfo.builder.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\builders\keyInfo.builder.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="signed-info.builder.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\builders\signed-info.builder.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="signed-properties.builder.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\builders\signed-properties.builder.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.domain.enums">
+      <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="6"/>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\enums\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="xml-namespaces.enum.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\domain\enums\xml-namespaces.enum.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="6"/>
+        <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure">
+      <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="XmlSignatureInjector.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\XmlSignatureInjector.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+      <file name="forge-rsa-sha1-signer.implementation.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\forge-rsa-sha1-signer.implementation.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="6" falsecount="2"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.canonicalizer">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="canonicalizer.implement.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\canonicalizer\canonicalizer.implement.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.canonicalizer.exclusive-canonicalization-ts">
+      <metrics statements="78" coveredstatements="77" conditionals="50" coveredconditionals="42" methods="29" coveredmethods="25"/>
+      <file name="Algorithm.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\canonicalizer\exclusive-canonicalization-ts\Algorithm.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="22" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+      <file name="ExclusiveCanonicalization.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\canonicalizer\exclusive-canonicalization-ts\ExclusiveCanonicalization.ts">
+        <metrics statements="69" coveredstatements="68" conditionals="50" coveredconditionals="42" methods="22" coveredmethods="18"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="18" count="20" type="stmt"/>
+        <line num="19" count="20" type="stmt"/>
+        <line num="20" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="53" count="12" type="stmt"/>
+        <line num="57" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="58" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="63" count="5" type="stmt"/>
+        <line num="64" count="5" type="stmt"/>
+        <line num="65" count="5" type="stmt"/>
+        <line num="69" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="70" count="11" type="stmt"/>
+        <line num="72" count="4" type="stmt"/>
+        <line num="85" count="13" type="stmt"/>
+        <line num="86" count="13" type="stmt"/>
+        <line num="87" count="13" type="stmt"/>
+        <line num="88" count="13" type="stmt"/>
+        <line num="90" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="93" count="2" type="stmt"/>
+        <line num="94" count="2" type="cond" truecount="2" falsecount="2"/>
+        <line num="95" count="2" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="105" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="3" type="stmt"/>
+        <line num="107" count="3" type="stmt"/>
+        <line num="110" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="111" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="112" count="2" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="115" count="2" type="cond" truecount="2" falsecount="2"/>
+        <line num="116" count="2" type="stmt"/>
+        <line num="117" count="2" type="stmt"/>
+        <line num="121" count="2" type="stmt"/>
+        <line num="126" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="130" count="2" type="stmt"/>
+        <line num="137" count="13" type="stmt"/>
+        <line num="138" count="13" type="stmt"/>
+        <line num="139" count="6" type="stmt"/>
+        <line num="142" count="13" type="stmt"/>
+        <line num="146" count="1" type="stmt"/>
+        <line num="150" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="158" count="19" type="cond" truecount="5" falsecount="0"/>
+        <line num="160" count="1" type="stmt"/>
+        <line num="162" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="166" count="13" type="stmt"/>
+        <line num="167" count="13" type="stmt"/>
+        <line num="168" count="13" type="stmt"/>
+        <line num="169" count="13" type="stmt"/>
+        <line num="171" count="6" type="stmt"/>
+        <line num="178" count="13" type="stmt"/>
+        <line num="181" count="2" type="stmt"/>
+      </file>
+      <file name="escape.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\canonicalizer\exclusive-canonicalization-ts\escape.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="15" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.certificate">
+      <metrics statements="29" coveredstatements="29" conditionals="46" coveredconditionals="38" methods="3" coveredmethods="3"/>
+      <file name="certificate-provider.implement.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\certificate\certificate-provider.implement.ts">
+        <metrics statements="29" coveredstatements="29" conditionals="46" coveredconditionals="38" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="29" count="5" type="cond" truecount="19" falsecount="1"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="39" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="43" count="5" type="stmt"/>
+        <line num="44" count="5" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="50" count="5" type="stmt"/>
+        <line num="54" count="5" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.certificate.factories">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\certificate\factories\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+      <file name="sign-strategy.factory.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\certificate\factories\sign-strategy.factory.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.certificate.strategies">
+      <metrics statements="57" coveredstatements="57" conditionals="58" coveredconditionals="50" methods="16" coveredmethods="16"/>
+      <file name="banco-central.strategy.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\certificate\strategies\banco-central.strategy.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="22" coveredconditionals="18" methods="5" coveredmethods="5"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="cond" truecount="6" falsecount="2"/>
+        <line num="20" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="3" type="cond" truecount="5" falsecount="1"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="5" falsecount="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\certificate\strategies\index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+      </file>
+      <file name="security-data.strategy.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\certificate\strategies\security-data.strategy.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="14" coveredconditionals="12" methods="4" coveredmethods="4"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="3" type="cond" truecount="5" falsecount="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="5" falsecount="1"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+      </file>
+      <file name="uanataca.strategy.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\certificate\strategies\uanataca.strategy.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="22" coveredconditionals="20" methods="7" coveredmethods="7"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="3" type="cond" truecount="5" falsecount="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="5" falsecount="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.clock">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="clock.implement.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\clock\clock.implement.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.composition">
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="buildSignXmlUseCase.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\composition\buildSignXmlUseCase.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.errors">
+      <metrics statements="31" coveredstatements="31" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\errors\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="13" type="stmt"/>
+      </file>
+      <file name="infrastructure.error.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\errors\infrastructure.error.ts">
+        <metrics statements="30" coveredstatements="30" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
+        <line num="1" count="13" type="stmt"/>
+        <line num="3" count="15" type="stmt"/>
+        <line num="4" count="15" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="15" count="13" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="22" count="13" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="30" count="13" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="36" count="13" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="43" count="13" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="51" count="13" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="60" count="13" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.handlers">
+      <metrics statements="24" coveredstatements="24" conditionals="20" coveredconditionals="20" methods="1" coveredmethods="1"/>
+      <file name="error.handle.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\handlers\error.handle.ts">
+        <metrics statements="23" coveredstatements="23" conditionals="20" coveredconditionals="20" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="24" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="32" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="40" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="48" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="55" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="62" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="69" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="77" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="85" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\handlers\index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.hash">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="hash-provider.implement.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\hash\hash-provider.implement.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.signature-generation">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="signature-id-generator.implement.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\signature-generation\signature-id-generator.implement.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.validations">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="p12.validation.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\validations\p12.validation.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="sign-xml.infrastructure.xml-dom-context">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="xml-dom.context.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\sign-xml\infrastructure\xml-dom-context\xml-dom.context.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="50" coveredstatements="50" conditionals="9" coveredconditionals="9" methods="9" coveredmethods="9"/>
+      <file name="date-utils.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\utils\date-utils.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\utils\index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="utf8.util.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\utils\utf8.util.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="38" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+      </file>
+      <file name="xml.util.ts" path="C:\Users\usuario\Documents\library\npm\osodreamer-sri-xml-signer\src\utils\xml.util.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

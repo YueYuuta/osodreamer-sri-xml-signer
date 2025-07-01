@@ -1,0 +1,9 @@
+# No incluir código fuente ni configs innecesarias
+src/
+tsconfig.json
+.eslintrc
+.prettierrc
+.vscode/
+*.log
+*.ts
+*.map
