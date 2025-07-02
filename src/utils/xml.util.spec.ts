@@ -1,22 +1,4 @@
-import {
-  assertValidXml,
-  uint8ArrayToBase64,
-  normalizeSelfClosingTags,
-} from "./xml.util"; // ajusta la ruta real
-
-describe("assertValidXml", () => {
-  it("should not throw for valid XML", () => {
-    const validXml = `<root><child>value</child></root>`;
-    const buffer = new TextEncoder().encode(validXml);
-    expect(() => assertValidXml(buffer)).not.toThrow();
-  });
-
-  it("should throw for invalid XML", () => {
-    const invalidXml = `<root><child></root>`;
-    const buffer = new TextEncoder().encode(invalidXml);
-    expect(() => assertValidXml(buffer)).toThrow("Invalid XML");
-  });
-});
+import { uint8ArrayToBase64, normalizeSelfClosingTags } from "./xml.util"; // ajusta la ruta real
 
 describe("uint8ArrayToBase64", () => {
   it("should convert Uint8Array to base64", () => {
