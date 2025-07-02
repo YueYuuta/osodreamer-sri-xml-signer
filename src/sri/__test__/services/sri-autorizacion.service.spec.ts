@@ -1,11 +1,9 @@
-import { ENV_ENUM } from "../../../generator/enums";
-import { SRI_URLS, SRIEnv } from "../../const";
 import {
   SRIAutorizacionError,
   SRIUnauthorizedError,
 } from "../../exceptions/sri-autorizacion.error";
 import * as helpers from "../../helpers";
-import { autorizarComprobante } from "../../services";
+import { authorizeXml } from "../../services";
 
 // Mock helpers
 jest.mock("../../helpers", () => ({
@@ -14,7 +12,7 @@ jest.mock("../../helpers", () => ({
   normalizeSriMessages: jest.fn(() => []),
 }));
 
-describe("autorizarComprobante", () => {
+describe("authorizeXml", () => {
   const mockClave = "1234567890123456789012345678901234567890123456";
 
   const mockClient = {
@@ -54,7 +52,7 @@ describe("autorizarComprobante", () => {
     (helpers.createSoapClient as jest.Mock).mockResolvedValue(mockClient);
     mockClient.autorizacionComprobanteAsync.mockResolvedValue([mockRespuesta]);
 
-    const result = await autorizarComprobante(mockClave, "test");
+    const result = await authorizeXml(mockClave, "test");
 
     expect(result.estadoAutorizacion).toBe("AUTORIZADO");
     expect(result.claveAcceso).toBe(mockClave);
@@ -90,7 +88,7 @@ describe("autorizarComprobante", () => {
     (helpers.createSoapClient as jest.Mock).mockResolvedValue(mockClient);
     mockClient.autorizacionComprobanteAsync.mockResolvedValue([mockRespuesta]);
 
-    await expect(autorizarComprobante(mockClave, "prod")).rejects.toThrow(
+    await expect(authorizeXml(mockClave, "prod")).rejects.toThrow(
       SRIAutorizacionError
     );
   });
@@ -111,7 +109,7 @@ describe("autorizarComprobante", () => {
     (helpers.createSoapClient as jest.Mock).mockResolvedValue(mockClient);
     mockClient.autorizacionComprobanteAsync.mockResolvedValue([mockRespuesta]);
 
-    await expect(autorizarComprobante(mockClave, "test")).rejects.toThrow(
+    await expect(authorizeXml(mockClave, "test")).rejects.toThrow(
       SRIUnauthorizedError
     );
   });
@@ -126,7 +124,7 @@ describe("autorizarComprobante", () => {
     (helpers.createSoapClient as jest.Mock).mockResolvedValue(mockClient);
     mockClient.autorizacionComprobanteAsync.mockResolvedValue([mockRespuesta]);
 
-    await expect(autorizarComprobante(mockClave, "test")).rejects.toThrow(
+    await expect(authorizeXml(mockClave, "test")).rejects.toThrow(
       "No se recibió información de autorización del SRI"
     );
   });

@@ -1,6 +1,6 @@
 import { IDENTIFICATION_CODE_ENUM } from "../../enums";
 import { ValidationException } from "../../exceptions";
-import { GenerateInvoiceXml } from "../../invoice/invoice.generator";
+import { generateXmlInvoice } from "../../invoice/invoice.generator";
 
 // Mocks
 jest.mock("../../invoice/validators/factura-validator", () => ({
@@ -34,7 +34,7 @@ jest.mock("./../../invoice/utils", () => ({
   removeNullFields: jest.fn((obj) => obj), // simula limpieza
 }));
 
-describe("GenerateInvoiceXml", () => {
+describe("generateXmlInvoice", () => {
   const baseInvoice: any = {
     infoTributaria: {
       ambiente: 1,
@@ -63,7 +63,7 @@ describe("GenerateInvoiceXml", () => {
   };
 
   it("debe generar un XML correctamente si no hay errores", async () => {
-    const result = await GenerateInvoiceXml(baseInvoice as any);
+    const result = await generateXmlInvoice(baseInvoice as any);
 
     expect(result).toHaveProperty("generatedXml");
     expect(result).toHaveProperty("invoiceJson");
@@ -80,7 +80,7 @@ describe("GenerateInvoiceXml", () => {
     } = require("../../../lightweight-validator/validations/object.validation");
     validateObject.mockReturnValueOnce(["campo requerido"]);
 
-    await expect(GenerateInvoiceXml(baseInvoice)).rejects.toThrow(
+    await expect(generateXmlInvoice(baseInvoice)).rejects.toThrow(
       ValidationException
     );
   });

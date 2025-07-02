@@ -1,4 +1,4 @@
-# 🧾 osodreamer-sri-xml-signer
+# osodreamer-sri-xml-signer
 
 **Tu solución completa para emitir comprobantes electrónicos válidos ante el SRI de Ecuador.**  
 Genera, firma, valida y autoriza comprobantes XML cumpliendo los estándares oficiales del SRI, todo desde una sola librería optimizada para **Node.js**, **TypeScript** y **NestJS**.
