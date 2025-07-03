@@ -22,18 +22,21 @@ Genera, firma, valida y autoriza comprobantes XML cumpliendo los estándares ofi
 
 ## 🚀 ¿Qué hace esta librería?
 
-- 🧩 **Genera comprobantes electrónicos XML** basados en el **ANEXO 3 - FORMATOS XML VERSIÓN 1.1.0**
+- 🧾 **Genera comprobantes electrónicos tipo factura** en formato XML conforme al **ANEXO 3 - FORMATOS XML VERSIÓN 1.1.0**
 - ✅ **Valida los datos de forma estricta** según los campos requeridos por el SRI
 - 📎 **Soporta adicionalmente los requisitos del:**
   - **ANEXO 21** – para agentes de retención (opcional)
   - **ANEXO 22** – para contribuyentes RIMPE (opcional)
-- 🔏 **Firma electrónicamente** los comprobantes con certificados `.p12` bajo el estándar **XAdES-BES**
+- 🔏 **Firma electrónicamente** cualquier tipo de comprobante XML válido (factura, retención, nota de crédito, etc.) con certificados `.p12` bajo el estándar **XAdES-BES**
 - 📡 **Valida y autoriza comprobantes** mediante servicios SOAP oficiales del **SRI** (ambientes de prueba y producción)
 - 📦 Compatible con:
   - **Node.js**
   - **TypeScript**
   - **NestJS**
   - **CommonJS y ESM**
+
+> ⚠️ Por el momento, esta librería **solo implementa la generación XML para comprobantes tipo factura**.  
+> Sin embargo, **el firmado, validación y autorización funcionan para cualquier comprobante XML compatible con el SRI.**
 
 > 🧑‍💻 Ideal para desarrolladores, sistemas de facturación electrónica, ERP personalizados y soluciones empresariales que requieren cumplimiento normativo con el SRI.
 
@@ -63,7 +66,7 @@ console.log(invoiceJson);
 
 ## 🧪 API
 
-### `GenerateInvoiceXml(invoice: ComprobanteType): Promise<ResponseGenerateXmlModel>`
+### `generateXmlInvoice(invoice: ComprobanteType): Promise<ResponseGenerateXmlModel>`
 
 Genera un comprobante(Factura) XML.
 
@@ -134,7 +137,7 @@ console.log(validatedXmlResponse);
 
 ## 🧪 API
 
-### `validarComprobante(xml: Uint8Array,env: SRIEnv): Promise<{ estado: string; mensaje?: string }>`
+### `validateXml(xml: Uint8Array,env: SRIEnv): Promise<{ estado: string; mensaje?: string }>`
 
 Valida un comprobante XML mediante sopa del SRI acorde al ambiente.
 
@@ -163,7 +166,7 @@ console.log(authorizedXmlResponse);
 
 ## 🧪 API
 
-### `autorizarComprobante( claveAcceso: string,env: SRIEnv): Promise<SriAuthorizationResult>`
+### `authorizeXml( claveAcceso: string,env: SRIEnv): Promise<SriAuthorizationResult>`
 
 Autoriza un comprobante XML mediante soap del SRI a corde al ambiente.
 
