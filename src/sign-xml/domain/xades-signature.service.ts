@@ -32,10 +32,7 @@ export class XadesSignatureService {
     const { issuerName } = certData;
 
     const canonicalizedXml = await this.canonicalizer.canonicalize(xmlToSign);
-    console.log(
-      "🚀 ~ XadesSignatureService ~ sign ~ canonicalizedXml:",
-      canonicalizedXml
-    );
+
     const digestXml = this.hasher.sha1Base64(utf8Encode(canonicalizedXml));
 
     const certDigest = certData.base64Der;

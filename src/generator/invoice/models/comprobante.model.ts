@@ -273,12 +273,12 @@ export class InfoFacturaModel {
   pagos: PagosModel;
 
   @IsNumber()
-  @MaxDigits(15)
+  @Digits({ integer: 15, fraction: 2 })
   @IsOptional()
   valorRetIva?: number;
 
   @IsNumber()
-  @MaxDigits(15)
+  @Digits({ integer: 15, fraction: 2 })
   @IsOptional()
   valorRetRenta?: number;
 }

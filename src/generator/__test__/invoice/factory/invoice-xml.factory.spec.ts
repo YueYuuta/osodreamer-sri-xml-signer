@@ -154,8 +154,8 @@ describe("InvoiceXmlFactory", () => {
             },
           ],
         },
-        valorRetIva: "0.00",
-        valorRetRenta: "0.00",
+        valorRetIva: null,
+        valorRetRenta: null,
         guiaRemision: null,
       },
 

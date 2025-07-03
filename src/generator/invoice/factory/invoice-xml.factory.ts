@@ -113,10 +113,9 @@ export class InvoiceXmlFactory {
           pagos: {
             pago: [],
           },
-          valorRetIva: valorRetIva.toString() ? valorRetIva.toFixed(2) : null,
-          valorRetRenta: valorRetRenta.toString()
-            ? valorRetRenta.toFixed(2)
-            : null,
+          valorRetIva: valorRetIva != null ? valorRetIva.toFixed(2) : null,
+          valorRetRenta:
+            valorRetRenta != null ? valorRetRenta.toFixed(2) : null,
         },
         detalles: {
           detalle: [],
@@ -132,7 +131,6 @@ export class InvoiceXmlFactory {
 
     // 1. Tomamos la lista (o único objeto) si existe
     const retencion = retenciones?.retencion;
-    console.log("🚀 ~ InvoiceXmlFactory ~ create ~ retencion:", retencion);
 
     if (retencion) {
       for (const campo of retencion) {
